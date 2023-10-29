@@ -1,4 +1,5 @@
 RandomCars randomcars;
+Background background;
 
 void setup() {
   size(1000, 600); 
@@ -13,17 +14,15 @@ void setup() {
 int x=60;
 int y=450;
 
-
-
 //void drawRandomCars() {
   //randomcars .display();
 
-void drawBackground() ;{
+void drawBackground() {
   background.display();
 }
-]
+
 
 void draw() {
-drawRandomCars();
+//drawRandomCars();
 drawBackground();
 }
