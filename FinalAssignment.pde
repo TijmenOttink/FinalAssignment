@@ -1,15 +1,20 @@
 RandomCars randomcars;
+Background background;
 
 void setup() {
   size(1000, 600);
-  randomcars = new RandomCars();
   rectMode(CENTER);
   ellipseMode(CENTER);
   shapeMode(CENTER);
-    
+
+  randomcars = new RandomCars();
+  background = new Background();
 }
 
 void draw() {
-randomcars.display();
-randomcars.move();
+  background(#1D84F0);
+
+  background.display();
+  randomcars.display();
+  randomcars.move();
 }
