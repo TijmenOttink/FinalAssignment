@@ -2,8 +2,7 @@ class RandomCars {
   RandomCars () {
 }
 
-PImage img;
-void setup() {
-  size (200,200);
-  img = loadImage ();
+PImage img;{
+  img = loadImage ("Programming final assignment car red.png");
+}
 }
