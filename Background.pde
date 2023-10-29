@@ -1,14 +1,14 @@
-class Background{
+class Background {
   Background (){
   }
   
-int x=60;
-int y=450;
+int x=100;
+int y=500;
 
 
 void display() {
   fill(#8E9295);
-  rect(0, 350, 1000, 250);
+  rect(0, 620, 2000, 500);
 
   fill(#FFFFFF);
   rect(x, y, 50, 10);
