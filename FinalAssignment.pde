@@ -1,17 +1,15 @@
 RandomCars randomcars;
 
 void setup() {
-  size(1000, 600); 
-  randomcars =new RandomCars();
+  size(1000, 600);
+  randomcars = new RandomCars();
   rectMode(CENTER);
   ellipseMode(CENTER);
   shapeMode(CENTER);
-}
-
-void drawRandomCars() {
-  randomcars .display();
+    
 }
 
 void draw() {
-drawRandomCars();
+randomcars.display();
+randomcars.move();
 }
