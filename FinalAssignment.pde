@@ -8,6 +8,10 @@ void setup() {
   shapeMode(CENTER);
 }
 
-void draw() {
+void drawRandomCars() {
+  randomcars .display();
+}
 
+void draw() {
+drawRandomCars();
 }
